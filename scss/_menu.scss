@@ -1,0 +1,11 @@
+.menu-btn {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+  cursor: pointer;
+  @include easeOut;
+
+  &.close {
+    transform: rotate(180deg);
+  }
+}

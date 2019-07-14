@@ -1,3 +1,12 @@
+.menu-btn {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out; }
+  .menu-btn.close {
+    transform: rotate(180deg); }
+
 *,
 *::before,
 *::after {
